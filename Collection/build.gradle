@@ -1,0 +1,5 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('Collection.jar'))
+dependencies {
+    compile files('Collection.jar')
+}

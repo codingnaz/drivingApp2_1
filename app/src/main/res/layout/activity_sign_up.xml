@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="0dp"
+    tools:context="com.example.saimon22.drivingapp2_1.SignUp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/goodbackground" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/whiteroundtextbackground"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:id="@+id/userName"
+                android:hint=" User Name"
+
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="10dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/whiteroundtextbackground"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:id="@+id/password"
+                android:hint=" Password"
+                android:paddingLeft="20dp"
+
+                android:layout_marginBottom="10dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/whiteroundtextbackground"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:id="@+id/confirmPassword"
+                android:hint=" Confirm Password"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="10dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/whiteroundtextbackground"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:id="@+id/firstName"
+                android:hint=" First Name"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="10dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/whiteroundtextbackground"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:id="@+id/middleName"
+                android:hint=" Middle Name"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="10dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/whiteroundtextbackground"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:id="@+id/lastName"
+                android:hint=" Last Name"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="10dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/whiteroundtextbackground"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:id="@+id/BOD"
+                android:hint=" Your Date of Birth( mm/dd/yyyy)"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="10dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/whiteroundtextbackground"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:id="@+id/SSN"
+                android:hint=" SSN"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="10dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/whiteroundtextbackground"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:id="@+id/address"
+                android:hint=" Your Address"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="10dp"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/whiteroundtextbackground"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:id="@+id/storeId"
+                android:hint=" Store ID (the store you applying to)"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/massage"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/confirmButton"
+                android:background="@drawable/bluebutton"
+                android:text="Confirm"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="32dp"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/testrun"
+                android:background="@drawable/blackbutton"
+                android:text="test run"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="32dp"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/backToSignIn"
+                android:background="@drawable/blackbutton"
+                android:text="test run"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="32dp"
+                android:layout_marginBottom="10dp"/>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

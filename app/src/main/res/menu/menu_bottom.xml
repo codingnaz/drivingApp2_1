@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Old Orders"
+        android:id="@+id/Bottom_bar_oldOrder"
+        android:icon="@drawable/listicon"/>
+    <item
+        android:title="Call"
+        android:id="@+id/Bottom_bar_Call"
+        android:icon="@drawable/invartedcall"/>
+    <item
+        android:title="Earning"
+        android:id="@+id/Bottom_bar_Earning"
+        android:icon="@drawable/invartedmoney"/>
+</menu>

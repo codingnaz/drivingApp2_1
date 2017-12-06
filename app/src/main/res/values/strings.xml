@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">drivingApp2_1</string>
+    <string name="textview">TextView</string>
+    <string name="password">Password</string>
+    <string name="birth_date_mm_dd_yyyy">birth_date_mm_dd_yyyy</string>
+    <string name="firstName">First Name</string>
+    <string name="title_activity_change_password_page">ChangePasswordPage</string>
+    <string name="title_activity_bottom_nev">BottomNevAct</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
