@@ -7,9 +7,9 @@
     <item
         android:title="Call"
         android:id="@+id/Bottom_bar_Call"
-        android:icon="@drawable/invartedcall"/>
+        android:icon="@drawable/ic_call_black_24dp"/>
     <item
         android:title="Earning"
         android:id="@+id/Bottom_bar_Earning"
-        android:icon="@drawable/invartedmoney"/>
+        android:icon="@drawable/ic_attach_money_black_24dp"/>
 </menu>

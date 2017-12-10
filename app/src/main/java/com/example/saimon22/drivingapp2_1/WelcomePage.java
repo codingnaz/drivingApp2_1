@@ -20,10 +20,11 @@ public class WelcomePage extends AppCompatActivity {
         setContentView(R.layout.activity_welcome_page);
         ma=(TextView)findViewById(R.id.mas);
         ma.setText("Welcome "+CurrentDriver.getCurrentfirstName());
-        /*nbottombar.setItemsF
-        nbottombar = BottomBar.attach(this, savedInstanceState);
-*/
+
+       //nbottombar= BottomBar
+
 
     }
+
 
 }

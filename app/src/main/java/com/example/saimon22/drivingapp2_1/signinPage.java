@@ -64,8 +64,9 @@ public class signinPage extends AppCompatActivity implements View.OnClickListene
 
 
             } else if (LogeinPassword.getText().toString().equals(driver.getPassword())) {
-
                 startActivity(new Intent(this,WelcomePage.class));
+                startActivity(new Intent(this,BottomNevAct.class));
+
                 CurrentDriver.setCurrentDriver(driver);
 
             } else {
